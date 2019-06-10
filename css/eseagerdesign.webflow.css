@@ -2300,7 +2300,7 @@ a.w--current {
   background-color: transparent;
   font-family: titling-gothic-fb-wide, sans-serif;
   color: #333;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: normal;
   text-decoration: none;
   text-transform: none;
@@ -2352,8 +2352,8 @@ a.w--current {
 }
 
 .image-74 {
-  max-width: 18%;
   float: right;
+  font-size: 12px;
 }
 
 .link-16 {
@@ -2375,16 +2375,33 @@ a.w--current {
   text-decoration: none;
 }
 
+.link-16.w--current:visited {
+  color: #6a50ff;
+  text-decoration: none;
+}
+
 .link-17 {
   color: #6a50ff;
+}
+
+.link-17:hover {
+  text-decoration: line-through;
 }
 
 .link-18 {
   color: #6a50ff;
 }
 
+.link-18:hover {
+  text-decoration: line-through;
+}
+
 .link-19 {
   color: #6a50ff;
+}
+
+.link-19:hover {
+  text-decoration: line-through;
 }
 
 .image-76 {
@@ -2403,6 +2420,18 @@ a.w--current {
 
 .bold-text-3 {
   letter-spacing: 1px;
+}
+
+.paragraph-53 {
+  font-family: Lekton, sans-serif;
+}
+
+.link-20 {
+  color: #6a50ff;
+}
+
+.link-20:hover {
+  text-decoration: line-through;
 }
 
 @media (max-width: 991px) {
